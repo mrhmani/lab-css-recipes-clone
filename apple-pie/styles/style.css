@@ -24,16 +24,16 @@
 .title {
   font-size: 100px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: normal; 
+  font-weight: normal;
 }
 
 .grandmother {
   width: 50%;
-  margin: 5px auto 100px;
-  padding: 70px;
+  padding: 50px;
   max-width: 850px;
   font-size: 24px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
   margin: auto;
 }
 
@@ -62,11 +62,14 @@
   margin: 5px auto 100px;
 }
 
-.ingredients h2 {
-  margin: 40px 0;
-  font-weight: normal;
+.Ingredientstitle {
+  height:70px;
+  width: 80%;
+  max-width: 800px;
   font-size: 25px;
-  
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
 }
 
 .ingredients {
@@ -76,6 +79,7 @@
   margin: 0 auto;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
 }
 
 .ingredients ul {
@@ -84,4 +88,23 @@
 
 .ingredients li::before {
   content: "-";
+}
+
+.Directionstitle {
+  height: 10px;
+  width: 80%;
+  max-width: 800px;
+  font-size: 25px;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+}
+
+.directions {
+  width: 50%;
+  padding: 70px;
+  max-width: 810px;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
 }

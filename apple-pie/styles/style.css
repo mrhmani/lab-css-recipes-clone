@@ -23,44 +23,65 @@
 
 .title {
   font-size: 100px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal; 
 }
 
 .grandmother {
-  margin: 50px;
-  margin: 0 auto;
+  width: 50%;
+  margin: 5px auto 100px;
   padding: 70px;
   max-width: 850px;
-}
-
-.grandmother p {
   font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
 }
 
- .recipe-info { 
-  background-image: url("../images/recipe-info.png"); 
+.recipe-info {
+  background-image: url("../images/recipe-info.png");
   width: 400px;
-  height: 150px; 
+  height: 150px;
   background-size: contain;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
   margin: auto;
-}  
+}
 .hrtag {
-  width: 50%; 
+  width: 50%;
   margin: 5px auto 100px;
-} 
- .cookinginfo { 
-  background-image: url("../images/cooking-info.png"); 
+}
+.cookinginfo {
+  background-image: url("../images/cooking-info.png");
   width: 400px;
-  height: 150px; 
+  height: 150px;
   background-size: contain;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
   margin: auto;
-}  
+}
 .hrtag2 {
-  width: 50%; 
+  width: 50%;
   margin: 5px auto 100px;
-} 
+}
 
+.ingredients h2 {
+  margin: 40px 0;
+  font-weight: normal;
+  font-size: 25px;
+  
+}
 
+.ingredients {
+  height: 330px;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+.ingredients ul {
+  list-style: none;
+}
+
+.ingredients li::before {
+  content: "-";
+}
